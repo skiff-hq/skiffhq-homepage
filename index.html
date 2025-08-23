@@ -26,6 +26,41 @@
   <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
   <link rel="stylesheet" href="assets/css/main.css"/>
   <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+
+<!-- Schema.org: Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SkiffHQ",
+  "url": "https://skiffhq.com",
+  "logo": "https://skiffhq.com/images/logo.png",
+  "sameAs": [
+    "https://forum.skiffhq.com"
+  ]
+}
+</script>
+
+<!-- Schema.org: WebSite + SearchAction -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://skiffhq.com",
+  "name": "SkiffHQ",
+  "publisher": {
+    "@type": "Organization",
+    "name": "SkiffHQ",
+    "url": "https://skiffhq.com"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://forum.skiffhq.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
 </head>
 <body class="is-preload">
 <div id="wrapper">
